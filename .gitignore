@@ -1,0 +1,24 @@
+# Development instructions (local-only)
+AGENTS.md
+
+# Compiled binaries and objects
+*.o
+*.out
+*.exe
+attendiq
+build/
+bin/
+*.dSYM/
+
+# Credentials, tokens, and sensitive runtime data
+*.env
+credentials*
+*token*
+*.session
+
+# Temporary and editor files
+.DS_Store
+*.log
+*.tmp
+*.swp
+*~
